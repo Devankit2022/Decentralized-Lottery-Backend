@@ -52,10 +52,10 @@ developementChains.includes(network.name)
                       const winnerStartingBalance = await ethers.provider.getBalance(
                           accounts[0].address,
                       )
-                      while (Number(await raffle.getNumberOfPlayers()) !== 0) {
-                          continue
-                      }
-                      raffle.emit("WinnerPicked", accounts[0].address)
+                      //   while (Number(await raffle.getNumberOfPlayers()) !== 0) {
+                      //       continue
+                      //   }
+                      //   raffle.emit("WinnerPicked", accounts[0].address)
                   })
               })
           })

@@ -190,7 +190,7 @@ const { assert, expect } = require("chai")
                               txReceipt.logs[1].args[0],
                               await raffle.getAddress(),
                           )
-                          raffle.emit("WinnerPicked", accounts[1].address)
+                          //   raffle.emit("WinnerPicked", accounts[1].address)
                       } catch (e) {
                           reject(e)
                       }
