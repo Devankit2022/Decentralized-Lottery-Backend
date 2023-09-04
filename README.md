@@ -19,7 +19,7 @@ Here is the complete backend code for the decentralized lottery app. The app use
 ## Quickstart
 
 ```
-git clone https://github.com/Devankit2022/Hardhat-Fund-Me.git
+git clone https://github.com/Devankit2022/Decentralized-Lottery-Backend.git
 cd hardhat-fund-me-fcc
 yarn
 ```
