@@ -20,7 +20,7 @@ Here is the complete backend code for the decentralized lottery app. The app use
 
 ```
 git clone https://github.com/Devankit2022/Decentralized-Lottery-Backend.git
-cd hardhat-fund-me-fcc
+cd Decentralized-Lottery-Backend
 yarn
 ```
 
