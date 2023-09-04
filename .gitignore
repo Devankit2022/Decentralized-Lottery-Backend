@@ -11,3 +11,6 @@ artifacts
 deployments
 
 gas-report.txt
+
+02-update-front-end.js
+mockOffchain.js

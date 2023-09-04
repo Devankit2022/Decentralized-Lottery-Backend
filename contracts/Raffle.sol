@@ -65,6 +65,10 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         i_interval = interval;
     }
 
+    receive() external payable {}
+
+    fallback() external payable {}
+
     function enterRaffle() public payable {
         if (msg.value < i_entranceFee) {
             revert Raffle_NotEnoughETHEntered();
