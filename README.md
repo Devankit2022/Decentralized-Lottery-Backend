@@ -1,6 +1,8 @@
 
 # Decentralized Lottery Backend
 
+#### [Live-URL](https://decentralized-lottery-devankit.vercel.app/)
+
 Here is the complete backend code for the decentralized lottery app. The app uses a smart contract which is deployed on the Sepolia chain and uses the tools of Chainlink to function.
 
 # Getting Started
